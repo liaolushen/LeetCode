@@ -1,8 +1,18 @@
 package sort;
 
+/** A realization of quick sort.
+ *
+ * @author Lushen Liao
+ * @version 2015-9-1
+ */
+
 public class Quick {
     private Quick() { }
     
+    /** quick sort
+     *
+     * @param nums      The array to be sorted.
+     */
     public static void quickSort(int[] nums) {
         sort(nums, 0, nums.length-1);
     }

@@ -12,7 +12,7 @@ public class Test {
     }
 
     public static void main(String[] args) {
-        int[] test1 = Test.randomArray(10, 100);
+        int[] test1 = Test.randomArray(5000, 1000);
         Quick.quickSort(test1);
         String arrayString = Arrays.toString(test1);
         System.out.println(arrayString);
